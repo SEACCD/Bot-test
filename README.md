@@ -13,7 +13,7 @@ module.exports = {
                 const re = /\+.*if(.*)/g,
                     newstr = re.exec(body);
 
-                if (!newstr) {
+                if (!newst) {
 
                     const param = context.issue({"body": "This changes does't have if changes"});
 
